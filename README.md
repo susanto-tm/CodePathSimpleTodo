@@ -20,7 +20,11 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] User can **add a description by toggling the option**
+* [x] User can **add items without a description and edit the description later**
+* [x] User can **edit descriptions that has more than a single line and save edits** without exiting the screen (exiting the screen now uses a "Done" button)
+* [x] Keyboard **drops down and hides itself** when the user saves the edit
+* [x] Takes into account **incorrect inputs** by showing a Toast text -- user could not enter a description without an item and could not enter an empty item
 
 ## Video Walkthrough
 
@@ -32,7 +36,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+A challenge in this project is making sure the states of the multiple inputs are kept until the user finalizes their inputs.
 
 ## License
 
