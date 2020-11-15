@@ -104,6 +104,8 @@ public class MainActivity extends AppCompatActivity {
                     itemsAdapter.notifyItemInserted(todoItems.size() - 1);
                     descriptionToggle.setChecked(false);  // reset switch
                     editText.setText("");  // reset edit text
+                    itemTodoState = "";  // reset placeholder
+                    itemDescState = "";  // reset placeholder
                     Toast.makeText(getApplicationContext(), "Item was added", Toast.LENGTH_SHORT).show();
                     saveItems();
                 }
