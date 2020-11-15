@@ -34,9 +34,21 @@
 
     <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="681dp"
             android:layout_above="@+id/editText"
             android:layout_marginBottom="1dp"
             android:id="@+id/recyclerView"/>
+
+    <Switch
+            android:text="Description "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionToggle"
+            android:layout_above="@+id/editText"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentLeft="true"/>
 
 </RelativeLayout>
